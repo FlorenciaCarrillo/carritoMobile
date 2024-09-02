@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014522678228",
+    "project_id": "carritoprueba-efdd4",
+    "storage_bucket": "carritoprueba-efdd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014522678228:android:6a41e4302dd2971f2a6441",
+        "android_client_info": {
+          "package_name": "com.example.ejemplocarrito"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSWwu7fyuAJziVGXlPNxXnNaaWNpV_Hcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
