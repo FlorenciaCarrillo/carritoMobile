@@ -5,12 +5,40 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/perritologin"
     tools:context=".HomeActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/btnCliente"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Hola, Bienvenido a Pet Boutique" />
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-480dp"
+        android:layout_marginEnd="155dp"
+        android:text="Cliente" />
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnCliente"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="540dp"
+        android:textSize="20dp"
+        android:text="Bienvenido a PetBoutiqueApp, seleccione su perfil:"/>
+
+
 </RelativeLayout>
